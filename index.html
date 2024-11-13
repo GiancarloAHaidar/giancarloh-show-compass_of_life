@@ -47,8 +47,8 @@
         content: "";
         position: absolute;
         bottom: 0;
-        left: 60px;
-        right: 60px;
+        left: 60px; /* Align with padding */
+        right: 60px; /* Align with padding */
         height: 2px;
         background-color: #f6f6f6;
       }
@@ -100,8 +100,9 @@
         background-color: #333;
       }
 
-      .header-center a.active {
-        color: #000;
+      /* Mark-style Highlight on Hover */
+      .header-center a:hover {
+        background-color: #f6f6f6; /* Light gray highlight */
       }
 
       /* Exit Button Style */
